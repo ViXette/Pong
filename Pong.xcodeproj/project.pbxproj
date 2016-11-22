@@ -15,6 +15,7 @@
 		F7366B301DDFFFDE0087AA28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7366B2E1DDFFFDE0087AA28 /* Main.storyboard */; };
 		F7366B321DDFFFDE0087AA28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7366B311DDFFFDE0087AA28 /* Assets.xcassets */; };
 		F7366B351DDFFFDE0087AA28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7366B331DDFFFDE0087AA28 /* LaunchScreen.storyboard */; };
+		F77B89731DE39A4400B9BE35 /* LLPIXEL3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F77B89721DE39A4400B9BE35 /* LLPIXEL3.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		F7366B311DDFFFDE0087AA28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7366B341DDFFFDE0087AA28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7366B361DDFFFDE0087AA28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F77B89721DE39A4400B9BE35 /* LLPIXEL3.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LLPIXEL3.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		F7366B231DDFFFDD0087AA28 /* Pong */ = {
 			isa = PBXGroup;
 			children = (
+				F77B89721DE39A4400B9BE35 /* LLPIXEL3.ttf */,
 				F7366B241DDFFFDD0087AA28 /* AppDelegate.swift */,
 				F7366B261DDFFFDD0087AA28 /* GameScene.sks */,
 				F7366B281DDFFFDD0087AA28 /* Actions.sks */,
@@ -134,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7366B301DDFFFDE0087AA28 /* Main.storyboard in Resources */,
+				F77B89731DE39A4400B9BE35 /* LLPIXEL3.ttf in Resources */,
 				F7366B271DDFFFDD0087AA28 /* GameScene.sks in Resources */,
 				F7366B321DDFFFDE0087AA28 /* Assets.xcassets in Resources */,
 				F7366B351DDFFFDE0087AA28 /* LaunchScreen.storyboard in Resources */,
@@ -314,6 +318,7 @@
 				F7366B3B1DDFFFDE0087AA28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
